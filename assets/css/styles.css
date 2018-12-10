@@ -1,0 +1,233 @@
+
+
+body {
+    position:relative;
+    height: 100%;
+    margin: 0 auto;
+    background-image:url(../../assets/images/dust_scratches.png);
+    background-repeat: repeat-x, repeat-y;
+    background-size: cover;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Background pattern from Toptal Subtle Patterns */
+
+header {
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    height: 68px;
+    margin-bottom: 30px;
+    
+}
+
+.hwidth {
+    width: 960px;
+    margin-left: 15%;
+   
+}
+
+h1 {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    line-height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+
+}
+
+.h1 ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 25px;
+    font-size: 20px;
+    color: #4aaaa5;  
+    padding:20px;
+    border-bottom: 2px solid #cccccc;
+}
+.navbar {
+    float: right;
+    padding-top: 10px;
+
+}
+
+.navb {
+    float: left;
+    margin: 10px;
+
+}
+
+.nav ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    clear: both;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-bottom: 150px;
+    margin-left: 15%;
+    padding: 10px; 
+    max-width: 960px;
+    height: 100%;
+}
+
+footer {    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    height: 35px;
+    width: 100%;
+    margin-top: 25px;
+}
+/* Everything above is on all three pages. */
+
+/* Begin index.html */
+
+#ash {
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    width: 20%;
+}
+
+#ash img {
+   
+    height: 200px;
+    width: 150px;
+}
+
+#para {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: #777777;
+    line-height: 25px;
+    width: 60%;
+    float: left;
+    
+}
+
+ ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* End index.html  */
+
+
+
+/* Begin contact.html  */
+
+#contact {
+    clear: both;
+}
+
+label {
+    margin-left: 25px;
+    color: #777777;
+    font-size: 16px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px 12px 20px;
+    margin: 8px 25px 8px 25px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+}
+
+textarea {
+    width: 90%;
+    margin: 8px 25px 8px 25px;
+    height: 250px;
+    padding: 12px 20px 12px 20px;
+    color: #777777;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    resize: none;
+
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    line-height: 100%;
+    padding: 5px;
+    margin: 25px;
+    max-width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* End contact.html  */
+
+
+/*  Begin portfolio.html  */
+
+#portfolio {
+    clear: both;
+}
+
+.wrapper {
+    margin: 25px;
+    height: 100%;   
+    position: relative;
+}
+
+.box {
+    height: 200px;
+    width: 180px;
+    position: relative;
+    margin: 30px;
+
+}
+
+
+.banner { 
+    position: absolute; 
+    left: 0;
+    top: 130px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 100%;  
+    padding: 10px;
+    text-align: center;
+}
+
+#b1 {
+    float: left;
+}
+
+#b2 {
+    float: left;
+}
+
+#b3 {
+    clear: both;
+    float: left;
+}
+
+
+#b4 {
+    float: left;
+}
+
+#b5 {
+    clear: both;
+}
+
