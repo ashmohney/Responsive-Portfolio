@@ -54,6 +54,7 @@ h2 {
 }
 .navbar {
     float: right;
+    margin-left: 50%;
     padding-top: 10px;
 
 }
@@ -61,10 +62,16 @@ h2 {
 .navb {
     float: left;
     margin: 10px;
+    color: #777777;
 
 }
 
-.nav ::after {
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+.navb ::after {
     content: "";
     display: block;
     clear: both;
@@ -231,3 +238,21 @@ textarea {
     clear: both;
 }
 
+@media only screen and (max-width: 640px) {
+    .navbar {clear: both; 
+            float: left; 
+            margin-left: 0%;
+        }
+    #para {clear: both;
+        }
+    }
+
+ @media only screen and (max-width: 768px) { 
+    .navbar {clear: both; 
+            float: left; 
+            margin-left: 0%;
+        }
+    #para {clear: both;
+        }
+    }
+    
